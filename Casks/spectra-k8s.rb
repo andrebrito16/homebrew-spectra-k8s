@@ -1,5 +1,5 @@
 cask "spectra-k8s" do
-  version "0.1.0"
+  version "0.0.1"
   sha256 "4b7da88241d03658b4db91897561d2335142783a555043e5fa8d21f3b605d036"
 
   url "https://github.com/andrebrito16/spectra/releases/download/v#{version}/Spectra-#{version}.dmg"
