@@ -1,6 +1,6 @@
-cask "spectra" do
+cask "spectra-k8s" do
   version "0.1.0"
-  sha256 "2aefa345fdc1a2f96073e8409018c7cbd9995b92f3e5b8afc67414c820844aab"
+  sha256 "4b7da88241d03658b4db91897561d2335142783a555043e5fa8d21f3b605d036"
 
   url "https://github.com/andrebrito16/spectra/releases/download/v#{version}/Spectra-#{version}.dmg"
   name "Spectra"
@@ -8,7 +8,7 @@ cask "spectra" do
   homepage "https://github.com/andrebrito16/spectra"
 
   livecheck do
-    url :stable
+    url "https://github.com/andrebrito16/spectra/releases"
     strategy :github_latest
   end
 
